@@ -1,0 +1,1341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accesibilidadToolStripMenuItem" xml:space="preserve">
+    <value>Accesibilidad</value>
+  </data>
+  <data name="administracionDelPersonalToolStripMenuItem" xml:space="preserve">
+    <value>Administracion</value>
+  </data>
+  <data name="administraciónDelPersonalToolStripMenuItem" xml:space="preserve">
+    <value>Administración del personal</value>
+  </data>
+  <data name="AgregarLaboral" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="altaCandidatoToolStripMenuItem" xml:space="preserve">
+    <value>Alta de candidato</value>
+  </data>
+  <data name="altaDeCandidatoToolStripMenuItem" xml:space="preserve">
+    <value>Alta de candidato</value>
+  </data>
+  <data name="altaDeDesempeñoToolStripMenuItem" xml:space="preserve">
+    <value>Alta de desempeño</value>
+  </data>
+  <data name="altaDeEmpleadosToolStripMenuItem" xml:space="preserve">
+    <value>Alta de empleados</value>
+  </data>
+  <data name="altasToolStripMenuItem" xml:space="preserve">
+    <value>Alta de empleado</value>
+  </data>
+  <data name="analisisYReportesToolStripMenuItem" xml:space="preserve">
+    <value>Analisis y reportes</value>
+  </data>
+  <data name="análisisYReportesToolStripMenuItem" xml:space="preserve">
+    <value>Análisis y reportes</value>
+  </data>
+  <data name="areasToolStripMenuItem" xml:space="preserve">
+    <value>Áreas</value>
+  </data>
+  <data name="asignarCapacitacionesToolStripMenuItem" xml:space="preserve">
+    <value>Asignar capacitaciones</value>
+  </data>
+  <data name="asignarToolStripMenuItem" xml:space="preserve">
+    <value>Asignar capacitaciones</value>
+  </data>
+  <data name="Asistencias" xml:space="preserve">
+    <value>Inasistencias</value>
+  </data>
+  <data name="AsistenciasPanel" xml:space="preserve">
+    <value>Inasistencias</value>
+  </data>
+  <data name="asistenciasToolStripMenuItem" xml:space="preserve">
+    <value>Inasistencias</value>
+  </data>
+  <data name="asistenciasToolStripMenuItem1" xml:space="preserve">
+    <value>Inasistencias</value>
+  </data>
+  <data name="bitacoraToolStripMenuItem" xml:space="preserve">
+    <value>Bitácora</value>
+  </data>
+  <data name="btnAceptar" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="btnAgregar" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="btnAgregarIdioma" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="btnBaja" xml:space="preserve">
+    <value>Dar de baja</value>
+  </data>
+  <data name="btnBajaArea" xml:space="preserve">
+    <value>Dar de baja</value>
+  </data>
+  <data name="btnBajaGenero" xml:space="preserve">
+    <value>Dar de baja</value>
+  </data>
+  <data name="btnBajaIdiomas" xml:space="preserve">
+    <value>Dar de baja</value>
+  </data>
+  <data name="btnBajaNacionalidad" xml:space="preserve">
+    <value>Dar de baja</value>
+  </data>
+  <data name="btnBajaPuesto" xml:space="preserve">
+    <value>Dar de baja</value>
+  </data>
+  <data name="btnBajaTel" xml:space="preserve">
+    <value>Dar de baja</value>
+  </data>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarAlta" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarAltaArea" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarAltaIdioma" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarAltaTel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarCrear" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarIdiomaMod" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarMod" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarModArea" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarModif" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarNacioAlta" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarPuestoAlta" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarPuestoMod" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCancelarTelMod" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnCargarBackup" xml:space="preserve">
+    <value>Cargar backup</value>
+  </data>
+  <data name="btnCerrar" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="btnContinuar" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="btnCrearBackup" xml:space="preserve">
+    <value>Crear backup</value>
+  </data>
+  <data name="btnDetalles" xml:space="preserve">
+    <value>Visualizar</value>
+  </data>
+  <data name="btnEliminar" xml:space="preserve">
+    <value>Dar de baja</value>
+  </data>
+  <data name="btnEliminarAcademico" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btnEliminarIdioma" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btnEliminarLaboral" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btnEtapas" xml:space="preserve">
+    <value>Ver proceso</value>
+  </data>
+  <data name="btnExcel" xml:space="preserve">
+    <value>Descargar Excel</value>
+  </data>
+  <data name="btnFiltrar" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="btnGeneroCancelarAlta" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnGeneroCancelarMod" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnGeneroGuardarAlta" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGeneroMod" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="btnGuardar" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarAlta" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarAltaArea" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarAltaIdioma" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarAltaTel" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarCrear" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarGeneroMod" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarIdiomaMod" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarMod" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarModArea" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarModif" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarPuestoAlta" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarPuestoMod" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnGuardarTelMod" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnIngresarEmpleado" xml:space="preserve">
+    <value>Ingresar Empleado</value>
+  </data>
+  <data name="btnIrAEtapas" xml:space="preserve">
+    <value>Ir A Etapas</value>
+  </data>
+  <data name="btnLogin" xml:space="preserve">
+    <value>Ingresar</value>
+  </data>
+  <data name="btnLogout" xml:space="preserve">
+    <value>Cerrar sesion</value>
+  </data>
+  <data name="btnModCancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnModGuardar" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnModIdiomas" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="btnModificar" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="btnModificarArea" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="btnModificarCandidato" xml:space="preserve">
+    <value>Modificar Candidato</value>
+  </data>
+  <data name="btnModificarPuesto" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="btnModificarTel" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="btnNacioCancelarMod" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btnNacioGuardar" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnNacioGuardarMod" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btnNacionalidadMod" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="btnPdf" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="btnReactivar" xml:space="preserve">
+    <value>Reactivar</value>
+  </data>
+  <data name="btnSeleccionar" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="btnValidar" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="btnVerificar" xml:space="preserve">
+    <value>Verificar</value>
+  </data>
+  <data name="buscarAlta" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="buscarMod" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="cambioDeContraseñaToolStripMenuItem" xml:space="preserve">
+    <value>Cambio de contraseña</value>
+  </data>
+  <data name="candidatoToolStripMenuItem" xml:space="preserve">
+    <value>Candidato</value>
+  </data>
+  <data name="capacitacionesToolStripMenuItem" xml:space="preserve">
+    <value>Capacitaciones</value>
+  </data>
+  <data name="categoriasToolStripMenuItem" xml:space="preserve">
+    <value>Gestión de categorías</value>
+  </data>
+  <data name="certificacionDeServiciosToolStripMenuItem" xml:space="preserve">
+    <value>Certificacion de servicios</value>
+  </data>
+  <data name="chcChar" xml:space="preserve">
+    <value>Contener minimo 8 caracteres.</value>
+  </data>
+  <data name="chcDatos" xml:space="preserve">
+    <value>No contener datos personales.</value>
+  </data>
+  <data name="chcEmail" xml:space="preserve">
+    <value>Email personalizado</value>
+  </data>
+  <data name="chcEsp" xml:space="preserve">
+    <value>Contener al menos un carácter especial.</value>
+  </data>
+  <data name="chcJustificada" xml:space="preserve">
+    <value>Justificada</value>
+  </data>
+  <data name="chcMay" xml:space="preserve">
+    <value>Contener minúsculas y mayúsculas.</value>
+  </data>
+  <data name="chcModificar" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="chcNum" xml:space="preserve">
+    <value>Contener números y letras.</value>
+  </data>
+  <data name="chcObligatorioAlta" xml:space="preserve">
+    <value>¿Es obligatoria?</value>
+  </data>
+  <data name="chcObligatorioMod" xml:space="preserve">
+    <value>¿Es obligatoria?</value>
+  </data>
+  <data name="chcPeriodo" xml:space="preserve">
+    <value>Periodo</value>
+  </data>
+  <data name="ConfigPoliticasPass" xml:space="preserve">
+    <value>Políticas de contraseña</value>
+  </data>
+  <data name="configuracionDeAltaDelPersonalToolStripMenuItem" xml:space="preserve">
+    <value>Configuración de alta del personal</value>
+  </data>
+  <data name="configuracionDeToolStripMenuItem" xml:space="preserve">
+    <value>Configuración de entrevistas</value>
+  </data>
+  <data name="configuraciónToolStripMenuItem" xml:space="preserve">
+    <value>Seguridad</value>
+  </data>
+  <data name="consultarToolStripMenuItem" xml:space="preserve">
+    <value>Gestión de empleados</value>
+  </data>
+  <data name="conveniosToolStripMenuItem" xml:space="preserve">
+    <value>Gestión de convenios</value>
+  </data>
+  <data name="desempeñoToolStripMenuItem" xml:space="preserve">
+    <value>Desempeño</value>
+  </data>
+  <data name="evaluacionDeDesempeñoToolStripMenuItem" xml:space="preserve">
+    <value>Evaluación de desempeño</value>
+  </data>
+  <data name="frmABMCapacitaciones" xml:space="preserve">
+    <value>Capacitaciones</value>
+  </data>
+  <data name="frmAltaCertificacionServicios" xml:space="preserve">
+    <value>Certificacion servicios - Alta</value>
+  </data>
+  <data name="frmAltaEvaluacionDesempenio" xml:space="preserve">
+    <value>Evaluaciones de desempeño - Alta</value>
+  </data>
+  <data name="frmAltaPersonal" xml:space="preserve">
+    <value>Administración de personal</value>
+  </data>
+  <data name="frmAltaProcesoDeSeleccion" xml:space="preserve">
+    <value>Proceso de selección - Alta</value>
+  </data>
+  <data name="frmAltaUsuario" xml:space="preserve">
+    <value>Usuarios - Alta</value>
+  </data>
+  <data name="frmAreas" xml:space="preserve">
+    <value>Áreas</value>
+  </data>
+  <data name="frmAsignarCapacitaciones" xml:space="preserve">
+    <value>Asignar capacitaciones</value>
+  </data>
+  <data name="frmAsistencias" xml:space="preserve">
+    <value>Inasistencias</value>
+  </data>
+  <data name="frmAsistenciasPanel" xml:space="preserve">
+    <value>Asistencias - Panel</value>
+  </data>
+  <data name="frmBitacora" xml:space="preserve">
+    <value>Bitácora</value>
+  </data>
+  <data name="frmCambioDePassNU" xml:space="preserve">
+    <value>Cambio de contraseña</value>
+  </data>
+  <data name="frmCambioDePassRecupero" xml:space="preserve">
+    <value>Cambio de contraseña</value>
+  </data>
+  <data name="frmCambioPass" xml:space="preserve">
+    <value>Cambio de contraseña</value>
+  </data>
+  <data name="frmCategorias" xml:space="preserve">
+    <value>Categorias</value>
+  </data>
+  <data name="frmCertificacionServicios" xml:space="preserve">
+    <value>Certificacion de servicios</value>
+  </data>
+  <data name="frmConfigAltaPersonal" xml:space="preserve">
+    <value>Configuración Alta de Personal</value>
+  </data>
+  <data name="frmConfigEntrevistas" xml:space="preserve">
+    <value>Configurar Entrevistas del Proceso de Seleccion</value>
+  </data>
+  <data name="frmConsultaEvaluacionDesempenio" xml:space="preserve">
+    <value>Evaluaciones de desempeño</value>
+  </data>
+  <data name="frmConsultaPersonal" xml:space="preserve">
+    <value>Empleados - Consulta</value>
+  </data>
+  <data name="frmConsultaUsuario" xml:space="preserve">
+    <value>Usuarios - Consulta</value>
+  </data>
+  <data name="frmConvenios" xml:space="preserve">
+    <value>Convenios</value>
+  </data>
+  <data name="frmEntrevistaProcupacional" xml:space="preserve">
+    <value>Entrevista - Procupacional</value>
+  </data>
+  <data name="frmLogin" xml:space="preserve">
+    <value>Talentium - Inicio de sesión</value>
+  </data>
+  <data name="frmMenu" xml:space="preserve">
+    <value>Talentium - Menú</value>
+  </data>
+  <data name="frmModCertificacionServicios" xml:space="preserve">
+    <value>Certificacion servicios - Modificación</value>
+  </data>
+  <data name="frmModificarProcesoDeSeleccion" xml:space="preserve">
+    <value>Proceso de  selección - Modificación</value>
+  </data>
+  <data name="frmModUsuario" xml:space="preserve">
+    <value>Usuarios - Modificación</value>
+  </data>
+  <data name="frmPerfiles" xml:space="preserve">
+    <value>Perfiles</value>
+  </data>
+  <data name="frmPuesto" xml:space="preserve">
+    <value>Puesto</value>
+  </data>
+  <data name="frmRecupero" xml:space="preserve">
+    <value>Recupero de contraseña</value>
+  </data>
+  <data name="gestionDeAsistenciasToolStripMenuItem" xml:space="preserve">
+    <value>Gestion de inasistencias</value>
+  </data>
+  <data name="gestionDeCandidatoToolStripMenuItem" xml:space="preserve">
+    <value>Gestion de candidato</value>
+  </data>
+  <data name="gestionDeCapacitacionesToolStripMenuItem" xml:space="preserve">
+    <value>Gestion de capacitaciones</value>
+  </data>
+  <data name="gestionDeCategoriasToolStripMenuItem" xml:space="preserve">
+    <value>Gestion de categorias</value>
+  </data>
+  <data name="gestionDeConveniosToolStripMenuItem" xml:space="preserve">
+    <value>Gestion de convenios</value>
+  </data>
+  <data name="gestionDeDesempeñoToolStripMenuItem" xml:space="preserve">
+    <value>Gestion de desempeño</value>
+  </data>
+  <data name="gestionDeEmpleadosToolStripMenuItem" xml:space="preserve">
+    <value>Gestion de empleados</value>
+  </data>
+  <data name="gestionDelTalentoToolStripMenuItem" xml:space="preserve">
+    <value>Gestion del talento</value>
+  </data>
+  <data name="gestiónCandidatoToolStripMenuItem" xml:space="preserve">
+    <value>Gestión de candidato</value>
+  </data>
+  <data name="gestiónDeAsistenciasToolStripMenuItem" xml:space="preserve">
+    <value>Gestión de inasistencias</value>
+  </data>
+  <data name="grbFiltroMod" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="grbFiltrosAlta" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="grbInasistenciasMod" xml:space="preserve">
+    <value>Inasistencias</value>
+  </data>
+  <data name="grbPersonalAlta" xml:space="preserve">
+    <value>Personal</value>
+  </data>
+  <data name="groupBox2" xml:space="preserve">
+    <value>Datos Personales</value>
+  </data>
+  <data name="groupBox7" xml:space="preserve">
+    <value>Ocupación</value>
+  </data>
+  <data name="grpAlta" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="grpAltaArea" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="grpAltaCandidato" xml:space="preserve">
+    <value>Alta de candidato</value>
+  </data>
+  <data name="grpAltaEntrevista" xml:space="preserve">
+    <value>Alta de Entrevista</value>
+  </data>
+  <data name="grpAltaIdiomas" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="grpAltaPuesto" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="grpAltaTel" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="grpCrear" xml:space="preserve">
+    <value>Crear convenio</value>
+  </data>
+  <data name="grpCrearArea" xml:space="preserve">
+    <value>Crear área</value>
+  </data>
+  <data name="grpCrearCategoria" xml:space="preserve">
+    <value>Crear categoría</value>
+  </data>
+  <data name="grpCrearConvenio" xml:space="preserve">
+    <value>Crear Convenio</value>
+  </data>
+  <data name="grpCrearPuesto" xml:space="preserve">
+    <value>Crear puesto</value>
+  </data>
+  <data name="grpDatosCandidato" xml:space="preserve">
+    <value>Datos Candidato</value>
+  </data>
+  <data name="grpDatosEmpleado" xml:space="preserve">
+    <value>Datos del empleado</value>
+  </data>
+  <data name="grpDatosPersonales" xml:space="preserve">
+    <value>Datos personales</value>
+  </data>
+  <data name="grpDomicilio" xml:space="preserve">
+    <value>Domicilio</value>
+  </data>
+  <data name="grpEntrevista" xml:space="preserve">
+    <value> Entrevista</value>
+  </data>
+  <data name="grpExperienciaLaboral" xml:space="preserve">
+    <value>Experiencia laboral</value>
+  </data>
+  <data name="grpFiltro" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="grpFiltros" xml:space="preserve">
+    <value>Filtros</value>
+  </data>
+  <data name="grpFiltrosBusqueda" xml:space="preserve">
+    <value>Filtros de Búsqueda</value>
+  </data>
+  <data name="grpFormacionAcademica" xml:space="preserve">
+    <value>Formación academica</value>
+  </data>
+  <data name="grpGeneroAlta" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="grpIdiomas" xml:space="preserve">
+    <value>Idiomas</value>
+  </data>
+  <data name="grpModEntrevista" xml:space="preserve">
+    <value>Modificar Entrevista</value>
+  </data>
+  <data name="grpModificar" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="grpModificarArea" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="grpModificarCategoria" xml:space="preserve">
+    <value>Modificar categoría</value>
+  </data>
+  <data name="grpModificarConvenio" xml:space="preserve">
+    <value>Modificar Convenio</value>
+  </data>
+  <data name="grpModificarGenero" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="grpModificarIdioma" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="grpModificarPuesto" xml:space="preserve">
+    <value>Modificar puesto</value>
+  </data>
+  <data name="grpModificarTel" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="grpNacioMod" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="grpNacionalidadAlta" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="grpNivelIdiomas" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="grpOcupacion" xml:space="preserve">
+    <value>Ocupación</value>
+  </data>
+  <data name="grpPeriodo" xml:space="preserve">
+    <value>Periodo de evaluación</value>
+  </data>
+  <data name="grpPeriodoEvaluacion" xml:space="preserve">
+    <value>Periodo de evaluacion</value>
+  </data>
+  <data name="grpSuperior1" xml:space="preserve">
+    <value>Información académica</value>
+  </data>
+  <data name="label1" xml:space="preserve">
+    <value>Idiomas</value>
+  </data>
+  <data name="lblAgregarExperienciaLaboral" xml:space="preserve">
+    <value>Agregar experiencia laboral</value>
+  </data>
+  <data name="lblAltaArea" xml:space="preserve">
+    <value>Alta de area</value>
+  </data>
+  <data name="lblAltura" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="lblAnio" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="lblApellido" xml:space="preserve">
+    <value>Apellido</value>
+  </data>
+  <data name="lblApellidos" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="lblArea" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="lblAreaAlta" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="lblAreaMod" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="lblAñoEgreso" xml:space="preserve">
+    <value>Año de egreso</value>
+  </data>
+  <data name="lblAñoIngreso" xml:space="preserve">
+    <value>Año de ingreso</value>
+  </data>
+  <data name="lblCalle" xml:space="preserve">
+    <value>Calle</value>
+  </data>
+  <data name="lblCambiaCada" xml:space="preserve">
+    <value>Cambiar contraseña cada</value>
+  </data>
+  <data name="lblCambioContraseña" xml:space="preserve">
+    <value>Cambio de contraseña</value>
+  </data>
+  <data name="lblCapacitaciones" xml:space="preserve">
+    <value>Capacitaciones</value>
+  </data>
+  <data name="lblCapacitacionesAsignadas" xml:space="preserve">
+    <value>Capacitaciones Asignadas</value>
+  </data>
+  <data name="lblCategoria" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="lblCategoriaModif" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="lblCodigoPostal" xml:space="preserve">
+    <value>Codigo postal</value>
+  </data>
+  <data name="lblContacto" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="lblContrasenia" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="lblConvenio" xml:space="preserve">
+    <value>Convenio</value>
+  </data>
+  <data name="lblConvenioModif" xml:space="preserve">
+    <value>Convenio</value>
+  </data>
+  <data name="lblCorreoElectronico" xml:space="preserve">
+    <value>Correo Electronico</value>
+  </data>
+  <data name="lblCuil" xml:space="preserve">
+    <value>CUIL/CUIT</value>
+  </data>
+  <data name="lblCuilAlta" xml:space="preserve">
+    <value>CUIL</value>
+  </data>
+  <data name="lblCuilCuit" xml:space="preserve">
+    <value>CUIL/CUIT</value>
+  </data>
+  <data name="lblCuilMod" xml:space="preserve">
+    <value>CUIL</value>
+  </data>
+  <data name="lblCuit" xml:space="preserve">
+    <value>CUIL/CUIT</value>
+  </data>
+  <data name="lblCuitCuil" xml:space="preserve">
+    <value>CUIL/CUIT</value>
+  </data>
+  <data name="lblDescripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="lblDocumento" xml:space="preserve">
+    <value>Tipo de Documento</value>
+  </data>
+  <data name="lblDocumentoMod" xml:space="preserve">
+    <value>Tipo de Documento</value>
+  </data>
+  <data name="lblDpto" xml:space="preserve">
+    <value>Dpto.</value>
+  </data>
+  <data name="lblDuracion" xml:space="preserve">
+    <value>Duración</value>
+  </data>
+  <data name="lblDuracionMod" xml:space="preserve">
+    <value>Duración</value>
+  </data>
+  <data name="lblEgresoLaboral" xml:space="preserve">
+    <value>Hasta el año</value>
+  </data>
+  <data name="lblEgresoLaboral1" xml:space="preserve">
+    <value>Hasta el año</value>
+  </data>
+  <data name="lblEmail" xml:space="preserve">
+    <value>Correo Electronico</value>
+  </data>
+  <data name="lblEmpleado" xml:space="preserve">
+    <value>Empleado</value>
+  </data>
+  <data name="lblEmpresa" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="lblEmpresa1" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="lblEstadoCivil" xml:space="preserve">
+    <value>Estado civil</value>
+  </data>
+  <data name="lblEstadoPreocupacional" xml:space="preserve">
+    <value>Estado Preocupacional</value>
+  </data>
+  <data name="lblEstadoSegundaEntrevista" xml:space="preserve">
+    <value>EstadoSegunda Entrevista</value>
+  </data>
+  <data name="lblEtapa" xml:space="preserve">
+    <value>Etapa</value>
+  </data>
+  <data name="lblFaltanCampos" xml:space="preserve">
+    <value>* Faltan llenar campos obligatorios</value>
+  </data>
+  <data name="lblFaltanCampos1" xml:space="preserve">
+    <value>* Faltan llenar campos obligatorios</value>
+  </data>
+  <data name="lblFaltanCampos2" xml:space="preserve">
+    <value>* Faltan llenar campos obligatorios</value>
+  </data>
+  <data name="lblFecha" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="lblFechaDeIngreso" xml:space="preserve">
+    <value>Fecha del ingreso</value>
+  </data>
+  <data name="lblFechaDesde" xml:space="preserve">
+    <value>Fecha Desde</value>
+  </data>
+  <data name="lblFechaDesdeMod" xml:space="preserve">
+    <value>Fecha desde</value>
+  </data>
+  <data name="lblFechaHasta" xml:space="preserve">
+    <value>Fecha Hasta</value>
+  </data>
+  <data name="lblFechaHastaMod" xml:space="preserve">
+    <value>Fecha hasta</value>
+  </data>
+  <data name="lblFechaMod" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="lblFechaNacimiento" xml:space="preserve">
+    <value>Fecha de nacimiento</value>
+  </data>
+  <data name="lblFechaProgramadaEntrevista" xml:space="preserve">
+    <value>FechaProgramada Entrevista</value>
+  </data>
+  <data name="lblFechaProgramadaExamen" xml:space="preserve">
+    <value>FechaProgramada Examen</value>
+  </data>
+  <data name="lblFiltro" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="lblGenero" xml:space="preserve">
+    <value>Genero</value>
+  </data>
+  <data name="lblGeneroMod" xml:space="preserve">
+    <value>Género</value>
+  </data>
+  <data name="lblHijos" xml:space="preserve">
+    <value>Hijos</value>
+  </data>
+  <data name="lblHorasLaborales" xml:space="preserve">
+    <value>Horas Laborales</value>
+  </data>
+  <data name="lblIdiomaMod" xml:space="preserve">
+    <value>Idiomas</value>
+  </data>
+  <data name="lblIdiomas" xml:space="preserve">
+    <value>Idiomas</value>
+  </data>
+  <data name="lblIngreseCodigo" xml:space="preserve">
+    <value>Ingrese el codigo</value>
+  </data>
+  <data name="lblIngreseUsuario" xml:space="preserve">
+    <value>Ingrese su usuario</value>
+  </data>
+  <data name="lblIngresoLaboral" xml:space="preserve">
+    <value>Desde el año</value>
+  </data>
+  <data name="lblIngresoLaboral1" xml:space="preserve">
+    <value>Desde el año</value>
+  </data>
+  <data name="lblInstancia" xml:space="preserve">
+    <value>Instancia</value>
+  </data>
+  <data name="lblInstanciaMod" xml:space="preserve">
+    <value>Instancia</value>
+  </data>
+  <data name="lblInstitucion" xml:space="preserve">
+    <value>Institucion educativa</value>
+  </data>
+  <data name="lblJonadaModif" xml:space="preserve">
+    <value>Jonada</value>
+  </data>
+  <data name="lblJornada" xml:space="preserve">
+    <value>Jornada</value>
+  </data>
+  <data name="lblLenguaje" xml:space="preserve">
+    <value>Lenguaje</value>
+  </data>
+  <data name="lblLocalidad" xml:space="preserve">
+    <value> Localidad</value>
+  </data>
+  <data name="lblMes" xml:space="preserve">
+    <value>Mes</value>
+  </data>
+  <data name="lblModEntrevista" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="lblModificarArea" xml:space="preserve">
+    <value>Modificar Area</value>
+  </data>
+  <data name="lblMotivo" xml:space="preserve">
+    <value> Motivo</value>
+  </data>
+  <data name="lblNacionalidad" xml:space="preserve">
+    <value>Nacionalidad</value>
+  </data>
+  <data name="lblNacionalidadMod" xml:space="preserve">
+    <value>Nacionalidad</value>
+  </data>
+  <data name="lblNivel" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="lblNivelMod" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="lblNombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="lblNombreEntrevista" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="lblNombreMod" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="lblNombrePerfil" xml:space="preserve">
+    <value>Nombre de perfil</value>
+  </data>
+  <data name="lblNombres" xml:space="preserve">
+    <value> Nombres</value>
+  </data>
+  <data name="lblNombreUsuario" xml:space="preserve">
+    <value>Nombre de usuario</value>
+  </data>
+  <data name="lblNroDoc" xml:space="preserve">
+    <value>Nro de documento</value>
+  </data>
+  <data name="lblNuevaContraseña" xml:space="preserve">
+    <value>Nueva Contraseña</value>
+  </data>
+  <data name="lblNuevaPass" xml:space="preserve">
+    <value>Nueva contraseña</value>
+  </data>
+  <data name="lblObraSocial" xml:space="preserve">
+    <value>Obra social</value>
+  </data>
+  <data name="lblObraSocialModif" xml:space="preserve">
+    <value>Obra social</value>
+  </data>
+  <data name="lblObservaciones" xml:space="preserve">
+    <value> Observaciones</value>
+  </data>
+  <data name="lblOtro" xml:space="preserve">
+    <value> Otro</value>
+  </data>
+  <data name="lblPartido" xml:space="preserve">
+    <value> Partido</value>
+  </data>
+  <data name="lblPatologiasExistentes" xml:space="preserve">
+    <value>Patologias Existentes</value>
+  </data>
+  <data name="lblPerfil" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="lblPerfilPermisos" xml:space="preserve">
+    <value>Perfil (Permisos)</value>
+  </data>
+  <data name="lblPermisos" xml:space="preserve">
+    <value>Permisos</value>
+  </data>
+  <data name="lblPermisosAsignados" xml:space="preserve">
+    <value>Permisos asignados</value>
+  </data>
+  <data name="lblPersonalACargo" xml:space="preserve">
+    <value>Personal a cargo</value>
+  </data>
+  <data name="lblPersonalACargo1" xml:space="preserve">
+    <value>Personal a cargo</value>
+  </data>
+  <data name="lblPiso" xml:space="preserve">
+    <value> Piso</value>
+  </data>
+  <data name="lblPreguntaSeguridad" xml:space="preserve">
+    <value>Pregunta de seguridad</value>
+  </data>
+  <data name="lblPreguntasSeguridad" xml:space="preserve">
+    <value>Preguntas de seguridad</value>
+  </data>
+  <data name="lblProgreso" xml:space="preserve">
+    <value>Progreso</value>
+  </data>
+  <data name="lblProvincia" xml:space="preserve">
+    <value> Provincia</value>
+  </data>
+  <data name="lblPuesto" xml:space="preserve">
+    <value>Puesto</value>
+  </data>
+  <data name="lblPuesto1" xml:space="preserve">
+    <value>Puesto</value>
+  </data>
+  <data name="lblPuestoAlta" xml:space="preserve">
+    <value>Puesto</value>
+  </data>
+  <data name="lblPuestoAPostularse" xml:space="preserve">
+    <value>Puesto a postularse</value>
+  </data>
+  <data name="lblPuestoMod" xml:space="preserve">
+    <value>Puesto</value>
+  </data>
+  <data name="lblPuestoModificar" xml:space="preserve">
+    <value>Puesto</value>
+  </data>
+  <data name="lblRecuperoContraseña" xml:space="preserve">
+    <value>Recupero de contraseña</value>
+  </data>
+  <data name="lblReferencia" xml:space="preserve">
+    <value>ⓘ Elegir un valor dentro de la escala 1-6, siendo 1 el valor más bajo y 6 el más alto.</value>
+  </data>
+  <data name="lblReingresarConraseña" xml:space="preserve">
+    <value>Reingresar contraseña</value>
+  </data>
+  <data name="lblReingresarPass" xml:space="preserve">
+    <value>Reingresar contraseña</value>
+  </data>
+  <data name="lblRespuesta" xml:space="preserve">
+    <value>Respuesta</value>
+  </data>
+  <data name="lblSeguridadSalud" xml:space="preserve">
+    <value>Seguridad y salud</value>
+  </data>
+  <data name="lblSeguridadSaludModif" xml:space="preserve">
+    <value>Seguridad y salud</value>
+  </data>
+  <data name="lblSesion" xml:space="preserve">
+    <value>Iniciar sesión</value>
+  </data>
+  <data name="lblSueldo" xml:space="preserve">
+    <value> Sueldo</value>
+  </data>
+  <data name="lblSueldoModif" xml:space="preserve">
+    <value>Sueldo</value>
+  </data>
+  <data name="lblTelAlternativo" xml:space="preserve">
+    <value>Telefono Alternativo</value>
+  </data>
+  <data name="lblTelefono" xml:space="preserve">
+    <value>Telefono</value>
+  </data>
+  <data name="lblTelefonoAlternativo" xml:space="preserve">
+    <value>Telefono Alternativo</value>
+  </data>
+  <data name="lblTelefonoCelular" xml:space="preserve">
+    <value>Telefono Celular</value>
+  </data>
+  <data name="lblTiempoRestante" xml:space="preserve">
+    <value>Su sesión se terminará por inactividad en </value>
+  </data>
+  <data name="lblTipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="lblTipoDni" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="lblTipoMod" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="lblTipoTel" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="lblTipoTel1" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="lblTipoTelefono" xml:space="preserve">
+    <value>Tipo de teléfono</value>
+  </data>
+  <data name="lblTipoTelMod" xml:space="preserve">
+    <value>Tipo de teléfono</value>
+  </data>
+  <data name="lblTitulo" xml:space="preserve">
+    <value>Titulo</value>
+  </data>
+  <data name="lblTotalEvaluaciones" xml:space="preserve">
+    <value>Total de evaluaciones</value>
+  </data>
+  <data name="lblUsuario" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="lnkAtras" xml:space="preserve">
+    <value>Atrás</value>
+  </data>
+  <data name="lnkRecupero" xml:space="preserve">
+    <value>Recuperar contraseña</value>
+  </data>
+  <data name="nominaSalarialToolStripMenuItem" xml:space="preserve">
+    <value>Nomina salarial</value>
+  </data>
+  <data name="nóminaSalarialToolStripMenuItem" xml:space="preserve">
+    <value>Nómina salarial</value>
+  </data>
+  <data name="nóminaSalarialToolStripMenuItem1" xml:space="preserve">
+    <value>Nómina salarial</value>
+  </data>
+  <data name="perfilesToolStripMenuItem" xml:space="preserve">
+    <value>Perfiles</value>
+  </data>
+  <data name="periodo" xml:space="preserve">
+    <value>Periodo</value>
+  </data>
+  <data name="procesoDeSeleccionToolStripMenuItem" xml:space="preserve">
+    <value>Proceso de selección</value>
+  </data>
+  <data name="procesoDeSelecciónToolStripMenuItem" xml:space="preserve">
+    <value>Proceso de selección</value>
+  </data>
+  <data name="puestosToolStripMenuItem" xml:space="preserve">
+    <value>Puestos</value>
+  </data>
+  <data name="rdbActivos" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="rdbAvanzado" xml:space="preserve">
+    <value>Avanzado</value>
+  </data>
+  <data name="rdbAvanzadoEn" xml:space="preserve">
+    <value>Avanzado</value>
+  </data>
+  <data name="rdbBasico" xml:space="preserve">
+    <value>Basico</value>
+  </data>
+  <data name="rdbBasicoEn" xml:space="preserve">
+    <value>Básico</value>
+  </data>
+  <data name="rdbEnProceso" xml:space="preserve">
+    <value>En proceso</value>
+  </data>
+  <data name="rdbFinalizados" xml:space="preserve">
+    <value>Finalizados</value>
+  </data>
+  <data name="rdbInactivos" xml:space="preserve">
+    <value>Inactivos</value>
+  </data>
+  <data name="rdbIntermedio" xml:space="preserve">
+    <value>Intermedio</value>
+  </data>
+  <data name="rdbIntermedioEn" xml:space="preserve">
+    <value>Intermedio</value>
+  </data>
+  <data name="rdbNativo" xml:space="preserve">
+    <value>Nativo</value>
+  </data>
+  <data name="rdbNativoEn" xml:space="preserve">
+    <value>Nativo</value>
+  </data>
+  <data name="recursosToolStripMenuItem" xml:space="preserve">
+    <value>Recursos</value>
+  </data>
+  <data name="tabAcademicos" xml:space="preserve">
+    <value>Datos Académicos</value>
+  </data>
+  <data name="tabArea" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="tabDocumento" xml:space="preserve">
+    <value>Tipo de Documento</value>
+  </data>
+  <data name="tabGenero" xml:space="preserve">
+    <value>Género</value>
+  </data>
+  <data name="tabIdiomas" xml:space="preserve">
+    <value>Idiomas</value>
+  </data>
+  <data name="tabLaborales" xml:space="preserve">
+    <value>Datos Laborales</value>
+  </data>
+  <data name="tabNacionalidad" xml:space="preserve">
+    <value>Nacionalidad</value>
+  </data>
+  <data name="tabPersonales" xml:space="preserve">
+    <value>Datos Personales</value>
+  </data>
+  <data name="tabPuesto" xml:space="preserve">
+    <value>Puesto</value>
+  </data>
+  <data name="tabTelefono" xml:space="preserve">
+    <value>Tipo de teléfono</value>
+  </data>
+  <data name="tbpAlta" xml:space="preserve">
+    <value> Alta</value>
+  </data>
+  <data name="tbpModificacionConsulta" xml:space="preserve">
+    <value>Modificación y consulta</value>
+  </data>
+  <data name="tbpModificar" xml:space="preserve">
+    <value>Modificación y consulta</value>
+  </data>
+  <data name="usuariosToolStripMenuItem" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="lblBitacora" xml:space="preserve">
+    <value>Bitácora</value>
+  </data>
+  <data name="gestiónDelTalentoToolStripMenuItem" xml:space="preserve">
+    <value>Gestion del talento</value>
+  </data>
+  <data name="altaEvaluaciónDeDesempeñoToolStripMenuItem" xml:space="preserve">
+    <value>Alta de desempeño</value>
+  </data>
+  <data name="grpCriterios" xml:space="preserve">
+    <value>Criterios</value>
+  </data>
+  <data name="lblEvTotales" xml:space="preserve">
+    <value>TOTAL DE EVALUACIONES:</value>
+  </data>
+  <data name="lblAltaCapacitacion" xml:space="preserve">
+    <value>Capacitación</value>
+  </data>
+  <data name="lblFiltroPorArea" xml:space="preserve">
+    <value>Filtro por área *</value>
+  </data>
+  <data name="lblFiltroPorAño" xml:space="preserve">
+    <value>Filtro por año *</value>
+  </data>
+  <data name="lblFiltroPorEmpleado" xml:space="preserve">
+    <value>Filtro por empleado *</value>
+  </data>
+  <data name="lblNombreApellido" xml:space="preserve">
+    <value>Nombre y apellido</value>
+  </data>
+  <data name="btnCrearContrasenia" xml:space="preserve">
+    <value>Generar</value>
+  </data>
+  <data name="frmCandidatosConsulta" xml:space="preserve">
+    <value>Candidatos - Consulta</value>
+  </data>
+  <data name="frmAltaCandidato" xml:space="preserve">
+    <value>Candidato - Alta</value>
+  </data>
+  <data name="frmConCandidato" xml:space="preserve">
+    <value>Candidato - Consulta</value>
+  </data>
+  <data name="frmConEmpleado" xml:space="preserve">
+    <value>Personal - Consulta</value>
+  </data>
+  <data name="frmModCandidato" xml:space="preserve">
+    <value>Candidato - Modificación</value>
+  </data>
+  <data name="frmModEmpleado" xml:space="preserve">
+    <value>Personal - Modificación</value>
+  </data>
+  <data name="frmReporteNominaSalarial" xml:space="preserve">
+    <value>Reporte de nomina salarial</value>
+  </data>
+  <data name="frmConsultaProcesoDeSeleccion" xml:space="preserve">
+    <value>Proceso de selección - Consulta</value>
+  </data>
+  <data name="lblFiltroCap" xml:space="preserve">
+    <value>Filtrar por nombre de capacitación</value>
+  </data>
+</root>

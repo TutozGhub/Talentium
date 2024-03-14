@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abrir" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="accion" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="apellido" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="apellidos" xml:space="preserve">
+    <value>Surnames</value>
+  </data>
+  <data name="area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="año" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="categoria" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="convenio" xml:space="preserve">
+    <value>Agreement</value>
+  </data>
+  <data name="cuil" xml:space="preserve">
+    <value>CUIT/CUIL</value>
+  </data>
+  <data name="cuit/cuil" xml:space="preserve">
+    <value>CUIT/CUIL</value>
+  </data>
+  <data name="descripción" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="desempeño en equipo" xml:space="preserve">
+    <value>Performed as a team</value>
+  </data>
+  <data name="desempeño en equipo *" xml:space="preserve">
+    <value>Played as a team *</value>
+  </data>
+  <data name="disciplina *" xml:space="preserve">
+    <value>Discipline *</value>
+  </data>
+  <data name="disciplina" xml:space="preserve">
+    <value>Discipline</value>
+  </data>
+  <data name="dni" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="efectividad en las tareas" xml:space="preserve">
+    <value>Effectiveness in tasks</value>
+  </data>
+  <data name="efectividad en las tareas *" xml:space="preserve">
+    <value>Effectiveness in tasks *</value>
+  </data>
+  <data name="egreso" xml:space="preserve">
+    <value>Disgress</value>
+  </data>
+  <data name="eliminar" xml:space="preserve">
+    <value>Eliminate</value>
+  </data>
+  <data name="empresa" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="entrevista" xml:space="preserve">
+    <value>Interview</value>
+  </data>
+  <data name="entrevistador" xml:space="preserve">
+    <value>Interviewer</value>
+  </data>
+  <data name="estado" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="etapa" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="externo/interno" xml:space="preserve">
+    <value>External internal</value>
+  </data>
+  <data name="externo/interno2" xml:space="preserve">
+    <value>External/internal2</value>
+  </data>
+  <data name="fecha" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="fecha alta" xml:space="preserve">
+    <value>High date</value>
+  </data>
+  <data name="fecha entrega" xml:space="preserve">
+    <value>Deliver date</value>
+  </data>
+  <data name="fecha recepción" xml:space="preserve">
+    <value>Reception date</value>
+  </data>
+  <data name="fecha solicitud" xml:space="preserve">
+    <value>Application date</value>
+  </data>
+  <data name="fecha_egreso" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="fecha_ingreso" xml:space="preserve">
+    <value>Admission date</value>
+  </data>
+  <data name="horas_laborales" xml:space="preserve">
+    <value>Working hours</value>
+  </data>
+  <data name="id usuario" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="idiomanombre" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="ingreso" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="institucion" xml:space="preserve">
+    <value>Institution</value>
+  </data>
+  <data name="jornada" xml:space="preserve">
+    <value>Working day</value>
+  </data>
+  <data name="justificada" xml:space="preserve">
+    <value>Justified</value>
+  </data>
+  <data name="lugar" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="mensaje" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="mes de evaluacion" xml:space="preserve">
+    <value>Evaluation month</value>
+  </data>
+  <data name="modificar" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="motivo" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="nivel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="nivel2" xml:space="preserve">
+    <value>Level 2</value>
+  </data>
+  <data name="nombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="nombre y apellido" xml:space="preserve">
+    <value>Name and surname</value>
+  </data>
+  <data name="nombres" xml:space="preserve">
+    <value>Names</value>
+  </data>
+  <data name="nombre_categoria" xml:space="preserve">
+    <value>Name category</value>
+  </data>
+  <data name="obligatoria" xml:space="preserve">
+    <value>Mandatory</value>
+  </data>
+  <data name="obra social" xml:space="preserve">
+    <value>Social work</value>
+  </data>
+  <data name="obra_social" xml:space="preserve">
+    <value>Social work</value>
+  </data>
+  <data name="observaciones" xml:space="preserve">
+    <value>Observations</value>
+  </data>
+  <data name="otro_motivo" xml:space="preserve">
+    <value>Another reason</value>
+  </data>
+  <data name="perfil" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="periodo" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="personal_a_cargo" xml:space="preserve">
+    <value>Personnel in charge</value>
+  </data>
+  <data name="progreso" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="puesto" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="puesto a postularse" xml:space="preserve">
+    <value>Put to postulate</value>
+  </data>
+  <data name="puntualidad" xml:space="preserve">
+    <value>Puntuality</value>
+  </data>
+  <data name="puntualidad *" xml:space="preserve">
+    <value>Puntuality *</value>
+  </data>
+  <data name="relacion con superiores" xml:space="preserve">
+    <value>Relationship with superiors</value>
+  </data>
+  <data name="relación con superiores *" xml:space="preserve">
+    <value>Relationship with superiors *</value>
+  </data>
+  <data name="seguridad y salud" xml:space="preserve">
+    <value>Security and health</value>
+  </data>
+  <data name="seguridad_salud" xml:space="preserve">
+    <value>Health Security</value>
+  </data>
+  <data name="sueldo" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="sueldos" xml:space="preserve">
+    <value>Salaries</value>
+  </data>
+  <data name="tiempo_estimado" xml:space="preserve">
+    <value>Estimated time</value>
+  </data>
+  <data name="tipo" xml:space="preserve">
+    <value>Guy</value>
+  </data>
+  <data name="titulo" xml:space="preserve">
+    <value>Qualification</value>
+  </data>
+  <data name="usuario" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="área" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="nombreapellido" xml:space="preserve">
+    <value>Name and surname</value>
+  </data>
+  <data name="capacitacion" xml:space="preserve">
+    <value>Training</value>
+  </data>
+  <data name="grupo" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+</root>

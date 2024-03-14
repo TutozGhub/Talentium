@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aviso" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="CamposIncompletos" xml:space="preserve">
+    <value>There are incomplete fields.</value>
+  </data>
+  <data name="CodigoExpirado" xml:space="preserve">
+    <value>The entered code has expired.</value>
+  </data>
+  <data name="CodigoIncorrecto" xml:space="preserve">
+    <value>The entered code is incorrect.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorMail" xml:space="preserve">
+    <value>Error while trying to send the email</value>
+  </data>
+  <data name="LiminteIntentos" xml:space="preserve">
+    <value>Attempts limit reached, please try again at</value>
+  </data>
+  <data name="ModNoAutorizada" xml:space="preserve">
+    <value>UNAUTHORIZED DATABASE MODIFICATION.</value>
+  </data>
+  <data name="TerminalBloqueada" xml:space="preserve">
+    <value>THIS TERMINAL IS DISABLED DUE TO EXTERNAL DATABASE MANIPULATION. PLEASE CONTACT TECHNICAL SUPPORT TO REACTIVATE THE TERMINAL.</value>
+  </data>
+  <data name="UsrBloqueado" xml:space="preserve">
+    <value>Blocked user.</value>
+  </data>
+  <data name="UsrDadoDeBaja" xml:space="preserve">
+    <value>The user has been unsubscribed.</value>
+  </data>
+  <data name="UsrInvalido" xml:space="preserve">
+    <value>Invalid user. Please verify that the user is correct.</value>
+  </data>
+  <data name="UsrPswIncorrecto" xml:space="preserve">
+    <value>Incorrect username or password.</value>
+  </data>
+  <data name="UsrReactivado" xml:space="preserve">
+    <value>User reactivated.</value>
+  </data>
+  <data name="QuiereContinuar" xml:space="preserve">
+    <value>Do you want to continue?</value>
+  </data>
+  <data name="PasMinimo8" xml:space="preserve">
+    <value>At least eight characters.</value>
+  </data>
+  <data name="PasMinimoEsp" xml:space="preserve">
+    <value>At least one special character.</value>
+  </data>
+  <data name="PasMinimoMay" xml:space="preserve">
+    <value>At least one uppercase letter.</value>
+  </data>
+  <data name="PasMinimoMin" xml:space="preserve">
+    <value>At least one lowercase letter.</value>
+  </data>
+  <data name="PasMinimoNum" xml:space="preserve">
+    <value>At least one number.</value>
+  </data>
+  <data name="PasDatos" xml:space="preserve">
+    <value>Do not include personal data.</value>
+  </data>
+  <data name="PasNoIgual" xml:space="preserve">
+    <value>The passwords do not match.</value>
+  </data>
+  <data name="PasFaltaCriterio" xml:space="preserve">
+    <value>The password doesn't meet one or more of the requirements.</value>
+  </data>
+  <data name="PasPregInvalida" xml:space="preserve">
+    <value>The security question answer is incorrect.</value>
+  </data>
+  <data name="UsrCambiaCadaVencido" xml:space="preserve">
+    <value>Your password has expired. You must change it in order to continue using the system.</value>
+  </data>
+  <data name="UsrCambiaCadaPorVencer" xml:space="preserve">
+    <value>Your password will expire soon. It is recommended to change it.</value>
+  </data>
+  <data name="PasRepetida" xml:space="preserve">
+    <value>You cannot use your current password as the new password.</value>
+  </data>
+  <data name="CampoMinimo11" xml:space="preserve">
+    <value>The field must contain 11 digits.</value>
+  </data>
+  <data name="CorreoNoValido" xml:space="preserve">
+    <value>The email address is not valid.</value>
+  </data>
+  <data name="CuitEnUso" xml:space="preserve">
+    <value>The CUIT/CUIL is already associated with an employee.</value>
+  </data>
+  <data name="DescargaExitosa" xml:space="preserve">
+    <value>The download was completed successfully</value>
+  </data>
+  <data name="IdiomaRepetido" xml:space="preserve">
+    <value>You cannot repeat the language.</value>
+  </data>
+  <data name="InfoAcademicaOb" xml:space="preserve">
+    <value>The academic information is mandatory.</value>
+  </data>
+  <data name="OperacionExitosa" xml:space="preserve">
+    <value>Successful Operation.</value>
+  </data>
+  <data name="Cer30Dias" xml:space="preserve">
+    <value>This employee already has a service certification request in the last 30 days.</value>
+  </data>
+  <data name="RegNoSelec" xml:space="preserve">
+    <value>You must select at least one record.</value>
+  </data>
+  <data name="FiltroIncompleto" xml:space="preserve">
+    <value>Please use at least one filter.</value>
+  </data>
+  <data name="RegNoCoincide" xml:space="preserve">
+    <value>No records match.</value>
+  </data>
+  <data name="RegSelecNoActivo" xml:space="preserve">
+    <value>You must select an active record.</value>
+  </data>
+  <data name="PerfValido" xml:space="preserve">
+    <value>Please enter a valid profile name and at least one permission.</value>
+  </data>
+  <data name="ErrorAlta" xml:space="preserve">
+    <value>There was an error while trying to register.</value>
+  </data>
+  <data name="UsrYaAsignado" xml:space="preserve">
+    <value>This employee already has an assigned user.</value>
+  </data>
+  <data name="UsrYaEnUso" xml:space="preserve">
+    <value>That username is already in use.</value>
+  </data>
+  <data name="Todas" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Personalizado" xml:space="preserve">
+    <value>Customized</value>
+  </data>
+  <data name="PerfEnUso" xml:space="preserve">
+    <value>This profile cannot be deleted because it is assigned to one or more users.</value>
+  </data>
+  <data name="UsrEspacios" xml:space="preserve">
+    <value>The username cannot contain spaces.</value>
+  </data>
+  <data name="CuilIncorrecto" xml:space="preserve">
+    <value>The entered CUIL does not have a correct format.</value>
+  </data>
+  <data name="EtapasNoCoinciden" xml:space="preserve">
+    <value>The stages do not match. The DataGridView cannot be completed.</value>
+  </data>
+  <data name="DescargarExitosa" xml:space="preserve">
+    <value>The download was completed successfully</value>
+  </data>
+  <data name="EntYaIngresada" xml:space="preserve">
+    <value>The interview is already entered. Please enter another one.</value>
+  </data>
+  <data name="EtapNoValida" xml:space="preserve">
+    <value>The stage value is not a valid number.</value>
+  </data>
+  <data name="DocEnUso" xml:space="preserve">
+    <value>The record is in use.</value>
+  </data>
+  <data name="RegNoEliminado" xml:space="preserve">
+    <value>The record could not be deleted.</value>
+  </data>
+  <data name="RegNoCargado" xml:space="preserve">
+    <value>The record could not be loaded. Please review the data and try again.</value>
+  </data>
+</root>

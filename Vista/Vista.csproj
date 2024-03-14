@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF9D8CA9-D558-4DFA-955E-743F943AC10C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Vista</RootNamespace>
+    <AssemblyName>Vista</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.11.3.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.11.3\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xmlworker.5.5.13\lib\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetLight, Version=3.5.0.0, Culture=neutral, PublicKeyToken=32fbb46dc1730c57, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpreadsheetLight.3.5.0\lib\netstandard2.0\SpreadsheetLight.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.5.0.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.4.7.0\lib\net46\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accesibilidad\frmConfigAltaPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accesibilidad\frmConfigAltaPersonal.Designer.cs">
+      <DependentUpon>frmConfigAltaPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accesibilidad\frmConfigEntrevistas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accesibilidad\frmConfigEntrevistas.Designer.cs">
+      <DependentUpon>frmConfigEntrevistas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accesibilidad\frmPerfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accesibilidad\frmPerfiles.Designer.cs">
+      <DependentUpon>frmPerfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analisis y reportes\Etapas.en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Etapas.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Analisis y reportes\Etapas.Designer.cs">
+      <DependentUpon>Etapas.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Analisis y reportes\Etapas.es-AR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Etapas.es-AR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Analisis y reportes\frmAltaCertificacionServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analisis y reportes\frmAltaCertificacionServicios.Designer.cs">
+      <DependentUpon>frmAltaCertificacionServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Analisis y reportes\frmCertificacionServicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analisis y reportes\frmCertificacionServicios.Designer.cs">
+      <DependentUpon>frmCertificacionServicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asistencias.Designer.cs">
+      <DependentUpon>Asistencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AsistenciasPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsistenciasPanel.Designer.cs">
+      <DependentUpon>AsistenciasPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bitacora\frmBitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bitacora\frmBitacora.Designer.cs">
+      <DependentUpon>frmBitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignarCapacitaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsignarCapacitaciones.Designer.cs">
+      <DependentUpon>frmAsignarCapacitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCategorias.Designer.cs">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion Personal\frmConsultaPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion Personal\frmConsultaPersonal.Designer.cs">
+      <DependentUpon>frmConsultaPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accesibilidad\frmConsultaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accesibilidad\frmConsultaUsuario.Designer.cs">
+      <DependentUpon>frmConsultaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCambioPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCambioPass.Designer.cs">
+      <DependentUpon>frmCambioPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigPoliticasPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigPoliticasPass.Designer.cs">
+      <DependentUpon>ConfigPoliticasPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Evaluacion de desempeño\frmAltaEvaluacionDesempenio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evaluacion de desempeño\frmAltaEvaluacionDesempenio.Designer.cs">
+      <DependentUpon>frmAltaEvaluacionDesempenio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Evaluacion de desempeño\frmConsultaEvaluacionDesempenio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evaluacion de desempeño\frmConsultaEvaluacionDesempenio.Designer.cs">
+      <DependentUpon>frmConsultaEvaluacionDesempenio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConvenios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConvenios.Designer.cs">
+      <DependentUpon>frmConvenios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteNominaSalarial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteNominaSalarial.Designer.cs">
+      <DependentUpon>frmReporteNominaSalarial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lenguajes\Columnas.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Columnas.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Lenguajes\Columnas.en-US.Designer.cs">
+      <DependentUpon>Columnas.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Lenguajes\Columnas.es-AR.Designer.cs">
+      <DependentUpon>Columnas.es-AR.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Lenguajes\Idioma.cs" />
+    <Compile Include="Lenguajes\Strings.en-US.Designer.cs">
+      <DependentUpon>Strings.en-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Lenguajes\Strings.es-AR.Designer.cs">
+      <DependentUpon>Strings.es-AR.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Lenguajes\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Proceso De Seleccion\frmABMCapacitaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proceso De Seleccion\frmABMCapacitaciones.Designer.cs">
+      <DependentUpon>frmABMCapacitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proceso De Seleccion\frmConsultaProcesoDeSeleccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proceso De Seleccion\frmConsultaProcesoDeSeleccion.Designer.cs">
+      <DependentUpon>frmConsultaProcesoDeSeleccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecupero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecupero.Designer.cs">
+      <DependentUpon>frmRecupero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaPersonal.Designer.cs">
+      <DependentUpon>frmAltaPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proceso De Seleccion\frmEntrevistaPreocupacionalCapacitacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proceso De Seleccion\frmEntrevistaPreocupacionalCapacitacion.Designer.cs">
+      <DependentUpon>frmEntrevistaPreocupacionalCapacitacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UtilidadesForm.cs" />
+    <EmbeddedResource Include="Accesibilidad\frmConfigAltaPersonal.resx">
+      <DependentUpon>frmConfigAltaPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accesibilidad\frmConfigEntrevistas.resx">
+      <DependentUpon>frmConfigEntrevistas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accesibilidad\frmPerfiles.resx">
+      <DependentUpon>frmPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analisis y reportes\Etapas.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Etapas.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analisis y reportes\Etapas.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Etapas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analisis y reportes\Etapas.es-AR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Etapas.es-AR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asistencias.resx">
+      <DependentUpon>Asistencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsistenciasPanel.resx">
+      <DependentUpon>AsistenciasPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bitacora\frmBitacora.resx">
+      <DependentUpon>frmBitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCambioPass.resx">
+      <DependentUpon>frmCambioPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analisis y reportes\frmAltaCertificacionServicios.resx">
+      <DependentUpon>frmAltaCertificacionServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analisis y reportes\frmCertificacionServicios.resx">
+      <DependentUpon>frmCertificacionServicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsignarCapacitaciones.resx">
+      <DependentUpon>frmAsignarCapacitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCategorias.resx">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion Personal\frmConsultaPersonal.resx">
+      <DependentUpon>frmConsultaPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accesibilidad\frmConsultaUsuario.resx">
+      <DependentUpon>frmConsultaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigPoliticasPass.resx">
+      <DependentUpon>ConfigPoliticasPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Evaluacion de desempeño\frmAltaEvaluacionDesempenio.resx">
+      <DependentUpon>frmAltaEvaluacionDesempenio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Evaluacion de desempeño\frmConsultaEvaluacionDesempenio.resx">
+      <DependentUpon>frmConsultaEvaluacionDesempenio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAltaPersonal.resx">
+      <DependentUpon>frmAltaPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConvenios.resx">
+      <DependentUpon>frmConvenios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReporteNominaSalarial.resx">
+      <DependentUpon>frmReporteNominaSalarial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lenguajes\Columnas.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Columnas.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lenguajes\Columnas.es-AR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Columnas.es-AR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lenguajes\Columnas.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Columnas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lenguajes\Strings.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lenguajes\Strings.es-AR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.es-AR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lenguajes\Strings.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proceso De Seleccion\frmABMCapacitaciones.resx">
+      <DependentUpon>frmABMCapacitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proceso De Seleccion\frmConsultaProcesoDeSeleccion.resx">
+      <DependentUpon>frmConsultaProcesoDeSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Accesibilidad\frmAltaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accesibilidad\frmAltaUsuario.Designer.cs">
+      <DependentUpon>frmAltaUsuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Accesibilidad\frmAltaUsuario.resx">
+      <DependentUpon>frmAltaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecupero.resx">
+      <DependentUpon>frmRecupero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proceso De Seleccion\frmEntrevistaPreocupacionalCapacitacion.resx">
+      <DependentUpon>frmEntrevistaPreocupacionalCapacitacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Properties\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data_management_data_processing_setting_configuration_gear_icon_190642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences_options_setting_ui_cogwheel_configuration_gear_wheel_settings_icon_210824.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preferences_options_setting_ui_cogwheel_configuration_gear_wheel_settings_icon_2108241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Comun\Comun.csproj">
+      <Project>{5015f051-4dea-4706-b591-03e53c16f613}</Project>
+      <Name>Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj">
+      <Project>{510d3943-eef1-4329-9298-b67e5ac32638}</Project>
+      <Name>LogicaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono.ico" />
+    <Content Include="Resources\iconRefresh.png" />
+    <Content Include="Resources\ImgTalentium.jpeg" />
+    <None Include="Resources\PantillaEmpleadoPdf.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
