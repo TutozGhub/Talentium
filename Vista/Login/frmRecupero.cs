@@ -7,7 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Comun;
 using LogicaNegocio;
+using LogicaNegocio.Lenguajes;
+using Vista.Lenguajes;
 
 namespace Vista
 {
@@ -16,6 +19,7 @@ namespace Vista
         public frmRecupero()
         {
             InitializeComponent();
+            Idioma.CargarIdioma(this.Controls, this); //Asigno los nombres a los controles del formulario
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -31,21 +35,22 @@ namespace Vista
                 CN_LogicaLogin cnRecupero = new CN_LogicaLogin();
                 try
                 {
-                    cnRecupero.usuarioEmail(textBoxUsuarioRec.Text);
-                    string msj = cnRecupero.message.Substring(5);
+                    cnRecupero.UsuarioEmail(textBoxUsuarioRec.Text);
+                    string msj = cnRecupero.Message.Substring(5);
                     if (msj == "Error" || msj == "error")
                     {
-                        MessageBox.Show(cnRecupero.message);
+                        MessageBox.Show(cnRecupero.Message);
                     }
                     else 
                     {
-                        label4.Text = cnRecupero.message;
-                        label4.Visible = true;
-                        label6.Visible = true;
+                        label3.Text = cnRecupero.Message;
+                        label3.Visible = true;
+                        lblIngreseCodigo.Visible = true;
                         codigo.Visible = true;
-                        Verificar.Visible = true;
+                        btnVerificar.Visible = true;
                         textBoxUsuarioRec.Enabled = false;
                         btnContinuar.Visible = false;
+                        this.AcceptButton = btnVerificar;
                     }
 
            // ocultar el boton, disablear el texbox usuario y agregar visible el textbox cod email y el boton verificar cod
@@ -53,34 +58,33 @@ namespace Vista
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(Errores.UsrInvalido, Errores.Aviso, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             } else
             {
-                MessageBox.Show("El campo no debe estar vacio");
+                MessageBox.Show(Errores.CamposIncompletos, Errores.Aviso, MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
-
-        private void lnkRecupero_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            this.Hide();
-            frmLogin menu = new frmLogin();
-            menu.Show();
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             CN_LogicaLogin cnRecupero = new CN_LogicaLogin();
 
-            bool valor = cnRecupero.validCode(codigo.Text);
+            bool valor = cnRecupero.ValidCode(codigo.Text);
 
             if (valor) 
             {
-
-                
                 this.Hide();
-                CambioDePass cambioDePass =  new CambioDePass();
-                cambioDePass.Show();
+                frmCambioPass cambioDePass;
+                if (UserCache.nuevo)
+                {
+                    cambioDePass = new frmCambioPass(true);
+                }
+                else
+                {
+                    cambioDePass = new frmCambioPass();
+                }
+                cambioDePass.ShowDialog();
+                this.Dispose();
             }
 
         }
@@ -88,6 +92,21 @@ namespace Vista
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void lnkAtras_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Dispose();
         }
     }
 }

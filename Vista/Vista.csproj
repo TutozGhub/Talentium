@@ -115,34 +115,34 @@
     <Compile Include="Analisis y reportes\frmCertificacionServicios.Designer.cs">
       <DependentUpon>frmCertificacionServicios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Asistencias.cs">
+    <Compile Include="Analisis y reportes\Asistencias.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Asistencias.Designer.cs">
+    <Compile Include="Analisis y reportes\Asistencias.Designer.cs">
       <DependentUpon>Asistencias.cs</DependentUpon>
     </Compile>
-    <Compile Include="AsistenciasPanel.cs">
+    <Compile Include="Analisis y reportes\AsistenciasPanel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AsistenciasPanel.Designer.cs">
+    <Compile Include="Analisis y reportes\AsistenciasPanel.Designer.cs">
       <DependentUpon>AsistenciasPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Bitacora\frmBitacora.cs">
+    <Compile Include="Accesibilidad\Seguridad\frmBitacora.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Bitacora\frmBitacora.Designer.cs">
+    <Compile Include="Accesibilidad\Seguridad\frmBitacora.Designer.cs">
       <DependentUpon>frmBitacora.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAsignarCapacitaciones.cs">
+    <Compile Include="Administracion Personal\frmAsignarCapacitaciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAsignarCapacitaciones.Designer.cs">
+    <Compile Include="Administracion Personal\frmAsignarCapacitaciones.Designer.cs">
       <DependentUpon>frmAsignarCapacitaciones.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCategorias.cs">
+    <Compile Include="Administracion Personal\frmCategorias.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCategorias.Designer.cs">
+    <Compile Include="Administracion Personal\frmCategorias.Designer.cs">
       <DependentUpon>frmCategorias.cs</DependentUpon>
     </Compile>
     <Compile Include="Administracion Personal\frmConsultaPersonal.cs">
@@ -157,40 +157,40 @@
     <Compile Include="Accesibilidad\frmConsultaUsuario.Designer.cs">
       <DependentUpon>frmConsultaUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCambioPass.cs">
+    <Compile Include="Login\frmCambioPass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCambioPass.Designer.cs">
+    <Compile Include="Login\frmCambioPass.Designer.cs">
       <DependentUpon>frmCambioPass.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConfigPoliticasPass.cs">
+    <Compile Include="Accesibilidad\Seguridad\ConfigPoliticasPass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConfigPoliticasPass.Designer.cs">
+    <Compile Include="Accesibilidad\Seguridad\ConfigPoliticasPass.Designer.cs">
       <DependentUpon>ConfigPoliticasPass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Evaluacion de desempeño\frmAltaEvaluacionDesempenio.cs">
+    <Compile Include="Administracion Personal\frmAltaEvaluacionDesempenio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Evaluacion de desempeño\frmAltaEvaluacionDesempenio.Designer.cs">
+    <Compile Include="Administracion Personal\frmAltaEvaluacionDesempenio.Designer.cs">
       <DependentUpon>frmAltaEvaluacionDesempenio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Evaluacion de desempeño\frmConsultaEvaluacionDesempenio.cs">
+    <Compile Include="Administracion Personal\frmConsultaEvaluacionDesempenio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Evaluacion de desempeño\frmConsultaEvaluacionDesempenio.Designer.cs">
+    <Compile Include="Administracion Personal\frmConsultaEvaluacionDesempenio.Designer.cs">
       <DependentUpon>frmConsultaEvaluacionDesempenio.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmConvenios.cs">
+    <Compile Include="Administracion Personal\frmConvenios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmConvenios.Designer.cs">
+    <Compile Include="Administracion Personal\frmConvenios.Designer.cs">
       <DependentUpon>frmConvenios.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmReporteNominaSalarial.cs">
+    <Compile Include="Analisis y reportes\frmReporteNominaSalarial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmReporteNominaSalarial.Designer.cs">
+    <Compile Include="Analisis y reportes\frmReporteNominaSalarial.Designer.cs">
       <DependentUpon>frmReporteNominaSalarial.cs</DependentUpon>
     </Compile>
     <Compile Include="Lenguajes\Columnas.Designer.cs">
@@ -236,28 +236,28 @@
     <Compile Include="Proceso De Seleccion\frmConsultaProcesoDeSeleccion.Designer.cs">
       <DependentUpon>frmConsultaProcesoDeSeleccion.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRecupero.cs">
+    <Compile Include="Login\frmRecupero.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRecupero.Designer.cs">
+    <Compile Include="Login\frmRecupero.Designer.cs">
       <DependentUpon>frmRecupero.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAltaPersonal.cs">
+    <Compile Include="Administracion Personal\frmAltaPersonal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAltaPersonal.Designer.cs">
+    <Compile Include="Administracion Personal\frmAltaPersonal.Designer.cs">
       <DependentUpon>frmAltaPersonal.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="Login\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
+    <Compile Include="Login\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMenu.cs">
+    <Compile Include="Login\frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMenu.Designer.cs">
+    <Compile Include="Login\frmMenu.Designer.cs">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Proceso De Seleccion\frmEntrevistaPreocupacionalCapacitacion.cs">
@@ -296,16 +296,16 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Etapas.es-AR.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Asistencias.resx">
+    <EmbeddedResource Include="Analisis y reportes\Asistencias.resx">
       <DependentUpon>Asistencias.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AsistenciasPanel.resx">
+    <EmbeddedResource Include="Analisis y reportes\AsistenciasPanel.resx">
       <DependentUpon>AsistenciasPanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Bitacora\frmBitacora.resx">
+    <EmbeddedResource Include="Accesibilidad\Seguridad\frmBitacora.resx">
       <DependentUpon>frmBitacora.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCambioPass.resx">
+    <EmbeddedResource Include="Login\frmCambioPass.resx">
       <DependentUpon>frmCambioPass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Analisis y reportes\frmAltaCertificacionServicios.resx">
@@ -314,10 +314,10 @@
     <EmbeddedResource Include="Analisis y reportes\frmCertificacionServicios.resx">
       <DependentUpon>frmCertificacionServicios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAsignarCapacitaciones.resx">
+    <EmbeddedResource Include="Administracion Personal\frmAsignarCapacitaciones.resx">
       <DependentUpon>frmAsignarCapacitaciones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCategorias.resx">
+    <EmbeddedResource Include="Administracion Personal\frmCategorias.resx">
       <DependentUpon>frmCategorias.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Administracion Personal\frmConsultaPersonal.resx">
@@ -326,22 +326,22 @@
     <EmbeddedResource Include="Accesibilidad\frmConsultaUsuario.resx">
       <DependentUpon>frmConsultaUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConfigPoliticasPass.resx">
+    <EmbeddedResource Include="Accesibilidad\Seguridad\ConfigPoliticasPass.resx">
       <DependentUpon>ConfigPoliticasPass.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Evaluacion de desempeño\frmAltaEvaluacionDesempenio.resx">
+    <EmbeddedResource Include="Administracion Personal\frmAltaEvaluacionDesempenio.resx">
       <DependentUpon>frmAltaEvaluacionDesempenio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Evaluacion de desempeño\frmConsultaEvaluacionDesempenio.resx">
+    <EmbeddedResource Include="Administracion Personal\frmConsultaEvaluacionDesempenio.resx">
       <DependentUpon>frmConsultaEvaluacionDesempenio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAltaPersonal.resx">
+    <EmbeddedResource Include="Administracion Personal\frmAltaPersonal.resx">
       <DependentUpon>frmAltaPersonal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmConvenios.resx">
+    <EmbeddedResource Include="Administracion Personal\frmConvenios.resx">
       <DependentUpon>frmConvenios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmReporteNominaSalarial.resx">
+    <EmbeddedResource Include="Analisis y reportes\frmReporteNominaSalarial.resx">
       <DependentUpon>frmReporteNominaSalarial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lenguajes\Columnas.en-US.resx">
@@ -383,13 +383,13 @@
     <EmbeddedResource Include="Accesibilidad\frmAltaUsuario.resx">
       <DependentUpon>frmAltaUsuario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
+    <EmbeddedResource Include="Login\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMenu.resx">
+    <EmbeddedResource Include="Login\frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRecupero.resx">
+    <EmbeddedResource Include="Login\frmRecupero.resx">
       <DependentUpon>frmRecupero.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Proceso De Seleccion\frmEntrevistaPreocupacionalCapacitacion.resx">
